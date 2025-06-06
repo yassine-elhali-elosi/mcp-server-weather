@@ -1,10 +1,10 @@
 [project]
 name = "weather"
 version = "0.1.0"
-description = "MCP Weather Server - Provides weather forecast and alerts"
+description = "Serveur MCP pour la météo aux USA"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "httpx>=0.28.1",
-    "mcp[cli]>=1.9.2",
+    "mcp[cli]>=1.9.3",
 ]
